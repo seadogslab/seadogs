@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://use.typekit.net/pfg3sql.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
       body {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: grange-extended, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        background-color: black;
       }
+
+      
+
+      
 
       #container {
-        width: 80vw;
+        width: 90vw;
         margin: auto;
       }
+      #themission{
+        margin-top: 10%;
+        font-size: 5em;
+        color: white;
+
+      }
+
+      #congrats{
+        margin-top: 10%;
+        font-size: 5em;
+        color: white;
+      }
+
+
 
       #imageContainer {
-        width: 80vw;
-        height: 600px;
+        width: 90vw;
+        height: 80vw;
         overflow-x: scroll;
         overflow-y: scroll;
       }
 
       #hintContainer {
         height: 10vh;
-        border: 5px solid white;
-        border-radius: 10px;
+        width: 50vw;;
         background-color: black;
+        margin-bottom: 10%;
+        align-items: center;
       }
 
       #clueLine {
-        padding: 10px;
+        padding: 40px;
         height: 100%;
         color: white;
       }
@@ -37,9 +60,10 @@
         position: fixed;
         margin: auto;
         z-index: 1;
-        padding-top: 100px;
+        padding-top: 404px;
         top: 0;
-        width: 80vw;
+        width: 30vw;
+        height: 10vw;
         height: 100%;
         overflow: auto;
       }
@@ -49,8 +73,7 @@
         color: white;
         margin: auto;
         padding: 20px;
-        border: 5px solid white;
-        border-radius: 10px;
+        border: 2px solid white;
         width: 60%;
       }
 
@@ -71,11 +94,14 @@
   </head>
   <body>
     <div id="container">
-      <div id="hintContainer"><p id="clueLine">CURRENT CLUE: Find the squid</p></div>
+      <div id="themission">The Driftwood Tavern</div>
+
+
+      <div id="hintContainer"><p id="clueLine">CURRENT MISSION Find: the squid</p></div>
       <div id="imageContainer">
         <image
           id="image"
-          src="https://images.squarespace-cdn.com/content/v1/617ea7a2c92cd454cf67b443/3ebd390e-66ac-43a7-95f1-229ebe84e0ba/FIQa6dWXIAMVDX4.jpeg"
+          src="assets/tavern.jpeg"
           alt="mystery map"
           usemap="#image-map"
         />
@@ -95,11 +121,12 @@
           <div id="cluePopup" class="modal">
             <div class="modal-content">
               <span class="close" onClick="closePopup();">&times;</span>
-              <p id="popupText">1 Clue: Find the squid!</p>
+              <p id="popupText">1/5 Current Mission: Find the squid!</p>
             </div>
           </div>
         </div>
       </div>
+      <div id="congrats">CONGRATULATION DEAR SEADOG</div>
     </div>
 
     <script>

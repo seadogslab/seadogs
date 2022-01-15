@@ -1,12 +1,9 @@
-
-node_modules
-.env
-coverage
-coverage.json
-typechain
-
-#Smart contract dir
-cache
+# Smart contract dir
 smart-contracts/build
 smart-contracts/node_modules
 
+# Hashlips art dir
+hashlips_art_engine-main/node_modules
+
+# MacOS files 
+.DS_Store

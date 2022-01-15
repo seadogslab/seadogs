@@ -1,8 +1,8 @@
-Where the earth meets the sky
-Hidden from the sunlight
-Burnt by the sea spray
-Stones trodden by ageless souls
-Wandering at the mercy of the ocean winds
+Where the earth meets the sky\n
+Hidden from the sunlight\n
+Burnt by the sea spray\n
+Stones trodden by ageless souls\n
+Wandering at the mercy of the ocean winds\n
 
 Welcome to Seadogs!
 

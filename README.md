@@ -1,15 +1,10 @@
-Where the earth meets the sky
+Where the earth meets the sky<br />
+Hidden from the sunlight<br />
+Burnt by the sea spray<br />
+Stones trodden by ageless souls<br />
+Wandering at the mercy of the ocean winds<br />
 
-Hidden from the sunlight
-
-Burnt by the sea spray
-
-Stones trodden by ageless souls
-
-Wandering at the mercy of the ocean winds
-
-Welcome to Seadogs!
-
+**Welcome to Seadogs!**
 
 <ins>Work in progress</ins>:
 

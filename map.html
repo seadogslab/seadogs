@@ -2,6 +2,8 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://use.typekit.net/pfg3sql.css">
+    
+    
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
       body {
@@ -20,9 +22,21 @@
         margin: auto;
       }
       #themission{
-        margin-top: 5%;
-        font-size: 5em;
+        margin-top: 2%;
+        font-size: 4em;
         color: white;
+
+      }
+      #description{
+        font-family: work-sans,sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         line-height: 1.3em;
+        margin-top: 2%;
+        font-size: 1.2em;
+        color: white;
+        padding-left: 2%;
+        padding-right: 10%;
 
       }
 
@@ -96,14 +110,22 @@
   <body>
     <div id="container">
       <div id="themission">The Driftwood Tavern</div>
-      <div id="">Mission</div>
+      <div id="description">If you want to survive Grimmare, you need to survive The Driftwood Tavern first.<br>
+
+        It’s the first stop off the ferry boat. And even it’s easily avoided, you’d be wise to visit this den of brawlers, brutes, gossips, thieves, and worse.<br>
+        
+        They’re good people. Really. They’ll tell you the rules of survival on Grimmare.
+        
+        But only if they like you.<br>
+        
+        And for that to happen, you have to prove your worth by solving a mystery.</div>
 
 
       <div id="hintContainer"><p id="clueLine">CURRENT MISSION Find: the squid</p></div>
       <div id="imageContainer">
         <image
           id="image"
-          src="assets/tavern.jpeg"
+          src="assets/tavern.png"
           alt="mystery map"
           usemap="#image-map"
         />
@@ -115,7 +137,7 @@
             title=""
             href="#/"
             coords="0,0,0,0"
-            shape="rect"
+            shape="poly"
             onclick="document.getElementById('cluePopup').style.display = 'block';"
           />
         </map>
@@ -137,31 +159,33 @@
       const clueArray = [
         { clueLine: 'CURRENT CLUE:', coords: '0,0,0,0', popupText: '1 Clue: Find the squid!' },
         {
-          clueLine: 'CURRENT CLUE: Find the squid',
-          coords: '1048,1760,1178,1936',
+          clueLine: '1/5 FIND THE DEAD BODY',
+          coords: '860,1159,947,1159,993,1181,956,1262,879,1274,807,1246,829,1178',
           popupText: `Nice! you find the first clue! 
           
           Next, Find the entrance of the building.`,
         },
         {
-          clueLine: 'CURRENT CLUE: Find the entrance of the building',
-          coords: '1377,962,1516,1187',
+          clueLine: '2/5 FIND THE BARMAID',
+          coords: '1628,1352,1690,1367,1759,1349,1731,1200,1852,1119,1783,1066,1700,1060,1663,1051,1641,1128,1588,1194,1579,1268',
+          popupText: 'Bravo! you found it the entrance!'
+          
+          
+        },
+        {
+          clueLine: '3/5 CURRENT CLUE: Find the BARTENDER',
+          coords: '1384,617,1399,589,1424,533,1368,487,1331,446,1291,502,1266,595,1328,639',
           popupText: 'Bravo! you found it the entrance!',
         },
         {
-          clueLine: 'CURRENT CLUE: Find the entrance of the building',
-          coords: '1377,962,1516,1187',
+          clueLine: '4/5 CURRENT CLUE: Find the BARTAB',
+          coords: '1876,397,1876,254,1867,198,1833,174,1777,149,1777,335,1830,372',
           popupText: 'Bravo! you found it the entrance!',
         },
         {
-          clueLine: 'CURRENT CLUE: Find the entrance of the building',
-          coords: '1377,962,1516,1187',
-          popupText: 'Bravo! you found it the entrance!',
-        },
-        {
-          clueLine: 'CURRENT CLUE: Find the entrance of the building',
-          coords: '1377,962,1516,1187',
-          popupText: 'Bravo! you found it the entrance!',
+          clueLine: '5/5 CURRENT CLUE: Find the POSTER',
+          coords: '2989,1020,3048,1026,3045,1156,2983,1144',
+          popupText: 'Congrats fellow Grimmarians. You should knock at the police station, see if they are hiring.',
         },
       ];
 

@@ -198,6 +198,25 @@
         document.getElementById('clueLine').innerText = clueArray[clueFound].clueLine;
         document.getElementsByTagName('map')[0].areas[0].coords = clueArray[clueFound].coords;
       }
+      const tooltipElements = [
+        {
+          labelText: 'Grey Lizzie',
+          coords: '1255,818,1429,812,1438,1159,1230,1119',
+        },
+        {
+          labelText: 'This is BARTENDER',
+          coords: '1384,617,1399,589,1424,533,1368,487,1331,446,1291,502,1266,595,1328,639',
+        },
+      ];
+
+      tooltipElements.forEach((ele) => {
+        const map = document.getElementsByTagName('map')[0];
+        const area = document.createElement('area');
+        area.title = ele.labelText;
+        area.coords = ele.coords;
+        area.shape = 'poly';
+        map.appendChild(area);
+      });
     </script>
   </body>
 </html>

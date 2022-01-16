@@ -12,7 +12,7 @@ Landing page -> https://www.thisisseadogs.com/
 
 Testnet Polygon -> https://testnets.opensea.io/assets/mumbai/0xbca94aec301bc462ba6c55bc9a83ed7f14dad37e/1
 
-Connecting metamask to the website
+Solve the mystery murder -> https://hungry-dijkstra-2742a9.netlify.app/map.html?#/
 
 <!---
 seadogslab/seadogslab is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
